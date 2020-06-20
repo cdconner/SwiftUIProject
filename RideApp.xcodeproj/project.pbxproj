@@ -13,6 +13,12 @@
 		13D3B25E249D705D00855FB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13D3B25D249D705D00855FB0 /* Assets.xcassets */; };
 		13D3B261249D705D00855FB0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13D3B260249D705D00855FB0 /* Preview Assets.xcassets */; };
 		13D3B264249D705E00855FB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13D3B262249D705E00855FB0 /* LaunchScreen.storyboard */; };
+		13D3B26C249D74C900855FB0 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D3B26B249D74C900855FB0 /* MapView.swift */; };
+		13D3B26E249D81C900855FB0 /* DistanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D3B26D249D81C900855FB0 /* DistanceManager.swift */; };
+		13D3B270249D861100855FB0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D3B26F249D861100855FB0 /* SettingsView.swift */; };
+		13D3B272249E574B00855FB0 /* SettingsDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D3B271249E574B00855FB0 /* SettingsDefaults.swift */; };
+		13D3B274249EA1E200855FB0 /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D3B273249EA1E200855FB0 /* SettingsManager.swift */; };
+		13D3B276249EA6BA00855FB0 /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D3B275249EA6BA00855FB0 /* RingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		13D3B260249D705D00855FB0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		13D3B263249D705E00855FB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13D3B265249D705E00855FB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13D3B26B249D74C900855FB0 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		13D3B26D249D81C900855FB0 /* DistanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceManager.swift; sourceTree = "<group>"; };
+		13D3B26F249D861100855FB0 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		13D3B271249E574B00855FB0 /* SettingsDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsDefaults.swift; sourceTree = "<group>"; };
+		13D3B273249EA1E200855FB0 /* SettingsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsManager.swift; sourceTree = "<group>"; };
+		13D3B275249EA6BA00855FB0 /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +69,14 @@
 			isa = PBXGroup;
 			children = (
 				13D3B257249D705700855FB0 /* AppDelegate.swift */,
+				13D3B271249E574B00855FB0 /* SettingsDefaults.swift */,
+				13D3B273249EA1E200855FB0 /* SettingsManager.swift */,
 				13D3B259249D705700855FB0 /* SceneDelegate.swift */,
 				13D3B25B249D705700855FB0 /* ContentView.swift */,
+				13D3B26F249D861100855FB0 /* SettingsView.swift */,
+				13D3B26B249D74C900855FB0 /* MapView.swift */,
+				13D3B275249EA6BA00855FB0 /* RingView.swift */,
+				13D3B26D249D81C900855FB0 /* DistanceManager.swift */,
 				13D3B25D249D705D00855FB0 /* Assets.xcassets */,
 				13D3B262249D705E00855FB0 /* LaunchScreen.storyboard */,
 				13D3B265249D705E00855FB0 /* Info.plist */,
@@ -147,8 +165,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				13D3B258249D705700855FB0 /* AppDelegate.swift in Sources */,
+				13D3B272249E574B00855FB0 /* SettingsDefaults.swift in Sources */,
+				13D3B26C249D74C900855FB0 /* MapView.swift in Sources */,
+				13D3B276249EA6BA00855FB0 /* RingView.swift in Sources */,
 				13D3B25A249D705700855FB0 /* SceneDelegate.swift in Sources */,
+				13D3B274249EA1E200855FB0 /* SettingsManager.swift in Sources */,
+				13D3B270249D861100855FB0 /* SettingsView.swift in Sources */,
 				13D3B25C249D705700855FB0 /* ContentView.swift in Sources */,
+				13D3B26E249D81C900855FB0 /* DistanceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
